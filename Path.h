@@ -29,7 +29,11 @@ public:
 	void start() {
 		cout << "\n    ----------------------------------------------START OF GAME : NAUVOO------------------------------------    " << endl;
 		currentLoc = "Navoo";
-		cout << "\nYou start your journey in " << currentLoc << " with " << famNum << " family members." << endl;
+		cout << "The Missouri Executive Order 44 has just been issued by Governer Boggs and you have just moved to Nauvoo with your family. You have been ";
+		cout << "told by Brigham to lead a handcart company West to Salt Lake valley to be one of the first groups to go see the new promised land. ";
+		cout << "Although reluctant to leave after just relocating, you have faith to do as commanded." << endl;
+
+		cout << "\nYou start your journey in " << currentLoc << " with " << famNum << " family members." << endl;		
 		//the first trek can be an outline of how the game will work
 		//coding an outline for how events will work
 		cout << "As you play the game, your last location will be marked so you will have a checkpoint in case you lose. You lose when your hunger ";
